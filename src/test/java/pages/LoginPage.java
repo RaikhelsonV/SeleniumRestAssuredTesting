@@ -1,10 +1,11 @@
 package pages;
 
+import io.qameta.allure.Step;
 import locators.LoginLocator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
     private LoginLocator locator;
 
     public LoginPage(WebDriver driver) {
@@ -13,19 +14,23 @@ public class LoginPage extends BasePage{
         PageFactory.initElements(driver, locator);
     }
 
-    public void enterEmail(String email){
+
+    @Step("Entering email: {email}")
+    public void enterEmail(String email) {
         enterText(locator.emailField, email);
-
     }
-    public void enterPassword(String password){
+
+    @Step("Entering password for the email: {email}")
+    public void enterPassword(String password) {
         enterText(locator.passwordField, password);
-
     }
-    public void clickLoginButton(){
+
+    @Step("Clicking on the Login button")
+    public void clickLoginButton() {
         click(locator.loginButton);
     }
 
-    public  void ff(){
+    public void ff() {
         click(locator.logout);
     }
 }

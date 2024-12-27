@@ -1,5 +1,7 @@
 *.log
 .idea/
 target/
+allure-results/
 build/
 .git
+.allure

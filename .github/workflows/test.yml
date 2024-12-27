@@ -26,3 +26,9 @@ jobs:
 
     - name: Run Docker Container
       run: docker run seleniumrestassuredtesting
+
+    - name: Upload Allure Report 
+      uses: actions/upload-artifact@v2 
+      with: 
+        name: allure-report 
+        path: target/allure-report

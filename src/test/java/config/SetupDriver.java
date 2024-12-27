@@ -14,10 +14,12 @@ import java.time.Duration;
 public class SetupDriver {
     public static WebDriver driver;
     private String base_url = "https://productstoresystem-production.up.railway.app/auth";
+    private String chrome_driver_path = "C:/Users/Serhii/Desktop/Valerie/chromedriver.exe";
 
 
     @BeforeClass(alwaysRun = true)
     public void setUp() {
+//        System.setProperty("webdriver.chrome.driver", chrome_driver_path);
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*");
