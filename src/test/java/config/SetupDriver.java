@@ -21,6 +21,14 @@ public class SetupDriver {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--disable-gpu");
+        chromeOptions.addArguments("--window-size=1920x1080");
+        chromeOptions.addArguments("--disable-setuid-sandbox");
+        chromeOptions.addArguments("--remote-debugging-port=9222");
+
         driver = new ChromeDriver(chromeOptions);
 
         driver.manage().window().maximize();

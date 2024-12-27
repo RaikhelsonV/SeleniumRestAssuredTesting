@@ -23,4 +23,5 @@ COPY . /app/
 
 RUN mvn clean install
 
-ENTRYPOINT ["sh", "-c", "Xvfb :99 -ac & mvn test"]
+# Run Xvfb and Maven tests
+CMD ["sh", "-c", "Xvfb :99 -ac & sleep 5 && mvn test"]
