@@ -2,7 +2,7 @@ name: Run SeleniumRestAssuredTesting
 
 on:
   schedule:
-    - cron: "0 18 * * *" 
+    - cron: "0 18 * * *" # Run at 6:00 PM UTC daily
   push:
     branches:
       - dev
@@ -19,10 +19,10 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '18'
-        distribution: 'temurin' 
+        distribution: 'temurin'
 
     - name: Build Docker Image
-      run: docker build -t SeleniumRestAssuredTesting .
+      run: docker build -t seleniumrestassuredtesting .
 
     - name: Run Docker Container
-      run: docker run SeleniumRestAssuredTesting
+      run: docker run seleniumrestassuredtesting
