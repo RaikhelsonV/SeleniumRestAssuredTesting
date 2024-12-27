@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Listeners;
 
-@Listeners(io.qameta.allure.testng.AllureTestNg.class)
 public class LoginPage extends BasePage {
     private LoginLocator locator;
 
