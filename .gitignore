@@ -1,5 +1,4 @@
 *.log
 .idea/
-target/
 .git
 .allure
