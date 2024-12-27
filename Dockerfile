@@ -2,20 +2,25 @@ FROM openjdk:18-jdk-slim
 
 WORKDIR /app
 
-# Install Maven
-RUN apt-get update && apt-get install -y maven
+# Install necessary packages
+RUN apt-get update && apt-get install -y maven wget unzip \
+    xvfb libxi6 libgconf-2-4 \
+    && apt-get install -y gnupg2 curl \
+    && curl -sS https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
+    && apt-get update \
+    && apt-get install -y google-chrome-stable \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy the pom.xml to download dependencies
+# Set display port to avoid crash
+ENV DISPLAY=:99
+
 COPY pom.xml /app/
 
-# Download dependencies
 RUN mvn dependency:go-offline
 
-# Copy the project files
 COPY . /app/
 
-# Build the project
 RUN mvn clean install
 
-# Set the entry point to run the tests
-ENTRYPOINT ["mvn", "test"]
+ENTRYPOINT ["sh", "-c", "Xvfb :99 -ac & mvn test"]

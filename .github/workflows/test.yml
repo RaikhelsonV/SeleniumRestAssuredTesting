@@ -2,7 +2,7 @@ name: Run SeleniumRestAssuredTesting
 
 on:
   schedule:
-    - cron: "5 18 * * *"
+    - cron: "50 19 * * *"
   push:
     branches:
       - dev
