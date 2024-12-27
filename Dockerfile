@@ -29,4 +29,4 @@ COPY . /app/
 RUN mvn clean install
 
 # Run Xvfb, Maven tests, and generate Allure report
-CMD ["sh", "-c", "Xvfb :99 -ac & sleep 5 && mvn test && allure generate /app/target/allure-results -o /app/target/allure-report && ls -la /app/target/allure-report"]
+CMD ["sh", "-c", "Xvfb :99 -ac & sleep 5 && mvn test && allure generate /app/build/allure-results -o /app/build/allure-report && ls -la /app/build/allure-report"]
