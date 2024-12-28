@@ -45,3 +45,5 @@ jobs:
       with:
         branch: gh-pages  
         folder: target/site/allure-maven-plugin  
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
