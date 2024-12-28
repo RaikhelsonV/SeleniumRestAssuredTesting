@@ -2,11 +2,10 @@ name: Run SeleniumRestAssuredTesting
 
 on:
   schedule:
-    - cron: "50 19 * * *" 
+    - cron: "50 19 * * *"  
   push:
     branches:
-      - dev
-
+      - dev  
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -29,19 +28,20 @@ jobs:
         && rm allure-2.13.9.tgz
 
     - name: Build Docker Image
-      run: docker build -t seleniumrestassuredtesting .
+      run: docker build -t seleniumrestassuredtesting . 
 
     - name: Run Docker Container
-      run: docker run seleniumrestassuredtesting
+      run: |
+        docker run -v $(pwd)/target/allure-results:/app/target/allure-results seleniumrestassuredtesting 
 
     - name: Check Allure Results Directory
-      run: ls -la target/allure-results
+      run: ls -la target/allure-results  
 
     - name: Generate Allure Report
-      run: allure generate target/allure-results -o target/site/allure-maven-plugin
+      run: allure generate target/allure-results -o target/site/allure-maven-plugin  
 
     - name: Upload Allure Report
       uses: actions/upload-artifact@v3
       with:
         name: allure-report
-        path: target/site/allure-maven-plugin
+        path: target/site/allure-maven-plugin  
