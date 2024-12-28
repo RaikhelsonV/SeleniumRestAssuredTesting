@@ -41,7 +41,7 @@ jobs:
       run: allure generate target/allure-results -o target/site/allure-maven-plugin  
 
     - name: Upload Allure Report to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages  
         folder: target/site/allure-maven-plugin  
