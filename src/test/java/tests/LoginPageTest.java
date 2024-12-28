@@ -1,6 +1,7 @@
 package tests;
 
 import config.SetupDriver;
+import io.qameta.allure.Epic;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
