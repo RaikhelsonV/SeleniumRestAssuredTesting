@@ -21,6 +21,13 @@ jobs:
         java-version: '18'
         distribution: 'temurin'
 
+    - name: Install Allure CLI
+      run: |
+        wget -O allure-2.13.9.tgz https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.9/allure-commandline-2.13.9.tgz
+        tar -zxvf allure-2.13.9.tgz -C /opt/
+        ln -s /opt/allure-2.13.9/bin/allure /usr/bin/allure
+        rm allure-2.13.9.tgz
+
     - name: Build Docker Image
       run: docker build -t seleniumrestassuredtesting .
 

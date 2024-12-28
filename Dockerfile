@@ -31,4 +31,3 @@ RUN mvn clean install
 
 # Run Xvfb, Maven tests, and generate Allure report
 CMD ["sh", "-c", "Xvfb :99 -ac & sleep 5 && mvn test && allure generate /app/target/allure-results -o /app/target/site/allure-maven-plugin && ls -la /app/target/site/allure-maven-plugin"]
-
