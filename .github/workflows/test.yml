@@ -40,8 +40,8 @@ jobs:
     - name: Generate Allure Report
       run: allure generate target/allure-results -o target/site/allure-maven-plugin  
 
-    - name: Upload Allure Report
-      uses: actions/upload-artifact@v3
+    - name: Upload Allure Report to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.2.0
       with:
-        name: allure-report
-        path: target/site/allure-maven-plugin  
+        branch: gh-pages  
+        folder: target/site/allure-maven-plugin  
