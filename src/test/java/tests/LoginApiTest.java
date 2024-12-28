@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.*;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -7,6 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+@Epic("API Tests")
+@Feature("Login and Product Endpoints")
 public class LoginApiTest {
     private static final String LOGIN_ENDPOINT = "/api/Auth/login";
     private static final String PRODUCT_ENDPOINT = "/api/Products";
@@ -18,6 +21,8 @@ public class LoginApiTest {
     }
 
     @Test
+    @Story("Successful Login")
+    @Description("Test for successful login with correct credentials")
     public void testSuccessfulLogin() {
         String requestBody = "{\"email\": \"ad@ad\", \"password\": \"ad@ad\"}";
         Response response = RestAssured
@@ -34,6 +39,8 @@ public class LoginApiTest {
     }
 
     @Test
+    @Story("Invalid Password")
+    @Description("Test for login with incorrect password")
     public void testInvalidPassword() {
         String requestBody = "{\"email\": \"ad@ad\", \"password\": \"ad@ad4\"}";
         Response response = RestAssured
@@ -46,6 +53,8 @@ public class LoginApiTest {
     }
 
     @Test
+    @Story("Invalid Email")
+    @Description("Test for login with incorrect email")
     public void testInvalidEmail() {
         String requestBody = "{\"email\": \"val@val6\", \"password\": \"123\"}";
         Response response = RestAssured.given().contentType(ContentType.JSON).body(requestBody).post(LOGIN_ENDPOINT);
@@ -53,6 +62,8 @@ public class LoginApiTest {
     }
 
     @Test
+    @Story("Empty Email")
+    @Description("Test for login with empty email")
     public void testEmptyEmail() {
         String requestBody = "{\"email\": \"\", \"password\": \"123\"}";
         Response response = RestAssured
@@ -65,6 +76,8 @@ public class LoginApiTest {
     }
 
     @Test(dependsOnMethods = "testSuccessfulLogin")
+    @Story("Get Products")
+    @Description("Test for fetching products with valid token")
     public void testGetProducts() {
         Assert.assertNotNull(token, "Token should not be null");
         Response response = RestAssured
@@ -78,6 +91,8 @@ public class LoginApiTest {
     }
 
     @Test(dependsOnMethods = "testSuccessfulLogin")
+    @Story("Get Products")
+    @Description("Test for fetching products with valid token")
     public void testAddProduct() {
         String requestBody = "{\"name\": \"Banana\", \"desc\": \"From Israel\", \"price\": 100}";
 
