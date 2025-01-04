@@ -1,7 +1,0 @@
-*.log
-.idea/
-.git
-.allure
-target/
-!allure-report/
-!allure-report/**

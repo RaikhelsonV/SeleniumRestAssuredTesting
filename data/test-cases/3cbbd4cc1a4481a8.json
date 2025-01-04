@@ -1,0 +1,97 @@
+{
+  "uid" : "3cbbd4cc1a4481a8",
+  "name" : "testInvalidPassword",
+  "fullName" : "tests.LoginApiTest.testInvalidPassword",
+  "historyId" : "d3bbc6fa5d34721ab1b6e1e83f78bdef",
+  "time" : {
+    "start" : 1736020503207,
+    "stop" : 1736020503928,
+    "duration" : 721
+  },
+  "description" : "Test for login with incorrect password",
+  "descriptionHtml" : "<p>Test for login with incorrect password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1736020498991,
+      "stop" : 1736020499210,
+      "duration" : 219
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.LoginApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testInvalidPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.LoginApiTest"
+  }, {
+    "name" : "host",
+    "value" : "71564c212d3f"
+  }, {
+    "name" : "thread",
+    "value" : "74@71564c212d3f.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Invalid Password"
+  }, {
+    "name" : "epic",
+    "value" : "API Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Login and Product Endpoints"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aac6314754fae0b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1735330221728,
+        "stop" : 1735330222749,
+        "duration" : 1021
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cbbd4cc1a4481a8.json",
+  "parameterValues" : [ ]
+}

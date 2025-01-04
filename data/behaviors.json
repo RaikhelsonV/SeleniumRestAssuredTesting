@@ -1,0 +1,136 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login Tests",
+    "children" : [ {
+      "name" : "Login Functionality",
+      "children" : [ {
+        "name" : "Valid Login",
+        "children" : [ {
+          "name" : "testLogin",
+          "uid" : "a497431a6d29abec",
+          "parentUid" : "7b3c47b33af6fa282af82094243770d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020497541,
+            "stop" : 1736020498805,
+            "duration" : 1264
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7b3c47b33af6fa282af82094243770d4"
+      } ],
+      "uid" : "0ca153fcbf77c0dc65bf739d28cbf7de"
+    } ],
+    "uid" : "be15aedb7bbea3712dfc833701a8007f"
+  }, {
+    "name" : "API Tests",
+    "children" : [ {
+      "name" : "Login and Product Endpoints",
+      "children" : [ {
+        "name" : "Empty Email",
+        "children" : [ {
+          "name" : "testEmptyEmail",
+          "uid" : "dbf13f40bb2323de",
+          "parentUid" : "f8a4539ca67e7e7a1fa4a53d68147935",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020499214,
+            "stop" : 1736020500281,
+            "duration" : 1067
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f8a4539ca67e7e7a1fa4a53d68147935"
+      }, {
+        "name" : "Successful Login",
+        "children" : [ {
+          "name" : "testSuccessfulLogin",
+          "uid" : "82c88d23b538a591",
+          "parentUid" : "e58d801a041fc679c25027b73ccb3c2e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020500285,
+            "stop" : 1736020501403,
+            "duration" : 1118
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e58d801a041fc679c25027b73ccb3c2e"
+      }, {
+        "name" : "Get Products",
+        "children" : [ {
+          "name" : "testAddProduct",
+          "uid" : "156a9b3144d35bca",
+          "parentUid" : "f07fbe0a1ad0fbc812174b85cd74739f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020501407,
+            "stop" : 1736020502290,
+            "duration" : 883
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGetProducts",
+          "uid" : "6735d1ec23b966f5",
+          "parentUid" : "f07fbe0a1ad0fbc812174b85cd74739f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020502293,
+            "stop" : 1736020502744,
+            "duration" : 451
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f07fbe0a1ad0fbc812174b85cd74739f"
+      }, {
+        "name" : "Invalid Email",
+        "children" : [ {
+          "name" : "testInvalidEmail",
+          "uid" : "fbb22051554ece7e",
+          "parentUid" : "6603faa8582e85970e5b3e589fc9e055",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020502747,
+            "stop" : 1736020503204,
+            "duration" : 457
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6603faa8582e85970e5b3e589fc9e055"
+      }, {
+        "name" : "Invalid Password",
+        "children" : [ {
+          "name" : "testInvalidPassword",
+          "uid" : "3cbbd4cc1a4481a8",
+          "parentUid" : "e3b08ea1ca060ed8969508103d19ccd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1736020503207,
+            "stop" : 1736020503928,
+            "duration" : 721
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e3b08ea1ca060ed8969508103d19ccd8"
+      } ],
+      "uid" : "8ab3bd2e529ca3c170175190dcd46d84"
+    } ],
+    "uid" : "ba457c5104c0b56216141dfec87dedf8"
+  } ]
+}
