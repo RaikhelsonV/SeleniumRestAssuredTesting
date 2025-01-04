@@ -93,8 +93,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <resultsDirectory>target/allure-results</resultsDirectory>
-                    <reportDirectory>target/allure-report</reportDirectory>
+                    <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+                    <reportDirectory>${project.build.directory}/site/allure-report</reportDirectory>
                     <allureDownloadUrl>
                         https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/${allure.version}/allure-commandline-${allure.version}.zip
                     </allureDownloadUrl>
@@ -107,11 +107,10 @@
                 <version>3.5.2</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <allure.results.directory>target/allure-results</allure.results.directory>
+                        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
-
 
         </plugins>
     </build>
