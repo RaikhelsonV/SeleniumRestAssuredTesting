@@ -2,10 +2,11 @@ name: Run SeleniumRestAssuredTesting
 
 on:
   schedule:
-    - cron: "50 19 * * *"  
+    - cron: "50 19 * * *"
   push:
     branches:
-      - dev  
+      - dev
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -22,17 +23,17 @@ jobs:
 
     - name: Install Allure CLI
       run: |
-        wget -O allure-2.13.9.tgz https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.9/allure-commandline-2.13.9.tgz \
-        && tar -zxvf allure-2.13.9.tgz -C /opt/ \
-        && sudo ln -s /opt/allure-2.13.9/bin/allure /usr/bin/allure \
-        && rm allure-2.13.9.tgz
+        wget -O allure-2.13.9.tgz https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.9/allure-commandline-2.13.9.tgz
+        tar -zxvf allure-2.13.9.tgz -C /opt/
+        sudo ln -s /opt/allure-2.13.9/bin/allure /usr/bin/allure
+        rm allure-2.13.9.tgz
 
     - name: Build Docker Image
-      run: docker build -t seleniumrestassuredtesting . 
+      run: docker build -t seleniumrestassuredtesting .
 
     - name: Run Docker Container
       run: |
-        docker run -v $(pwd)/target/allure-results:/app/target/allure-results seleniumrestassuredtesting 
+        docker run -v $(pwd)/target/allure-results:/app/target/allure-results seleniumrestassuredtesting
 
     - name: Check Allure Results Directory
       run: ls -la target/allure-results  
@@ -44,4 +45,17 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: allure-report
-        path: target/site/allure-maven-plugin  
+        path: target/site/allure-maven-plugin
+
+    - name: Configure GitHub Token
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/RaikhelsonV/SeleniumRestAssuredTesting.git
+
+    - name: Deploy to GitHub Pages
+      run: |
+        git checkout -b gh-pages
+        git add .
+        git commit -m "Deploy to GitHub Pages"
+        git push --force origin gh-pages
