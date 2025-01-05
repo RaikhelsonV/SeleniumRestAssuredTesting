@@ -1,24 +1,24 @@
 {
-  "uid" : "3cbbd4cc1a4481a8",
-  "name" : "testInvalidPassword",
-  "fullName" : "tests.LoginApiTest.testInvalidPassword",
-  "historyId" : "d3bbc6fa5d34721ab1b6e1e83f78bdef",
+  "uid" : "a2da8fdffda57e5e",
+  "name" : "testGetProducts",
+  "fullName" : "tests.LoginApiTest.testGetProducts",
+  "historyId" : "3461a8422251fa940f4556b1ce13e5b5",
   "time" : {
-    "start" : 1736020503207,
-    "stop" : 1736020503928,
-    "duration" : 721
+    "start" : 1736106891820,
+    "stop" : 1736106892232,
+    "duration" : 412
   },
-  "description" : "Test for login with incorrect password",
-  "descriptionHtml" : "<p>Test for login with incorrect password</p>\n",
+  "description" : "Test for fetching products with valid token",
+  "descriptionHtml" : "<p>Test for fetching products with valid token</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1736020498991,
-      "stop" : 1736020499210,
-      "duration" : 219
+      "start" : 1736106888472,
+      "stop" : 1736106888687,
+      "duration" : 215
     },
     "description" : "",
     "status" : "passed",
@@ -39,7 +39,7 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "testInvalidPassword"
+    "value" : "testGetProducts"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -51,10 +51,10 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "host",
-    "value" : "71564c212d3f"
+    "value" : "8d14ddc9503f"
   }, {
     "name" : "thread",
-    "value" : "74@71564c212d3f.main(1)"
+    "value" : "75@8d14ddc9503f.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -63,7 +63,7 @@
     "value" : "java"
   }, {
     "name" : "story",
-    "value" : "Invalid Password"
+    "value" : "Get Products"
   }, {
     "name" : "epic",
     "value" : "API Tests"
@@ -81,17 +81,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "aac6314754fae0b8",
+      "uid" : "c31994b4e417457d",
       "status" : "passed",
       "time" : {
-        "start" : 1735330221728,
-        "stop" : 1735330222749,
-        "duration" : 1021
+        "start" : 1735330220209,
+        "stop" : 1735330221052,
+        "duration" : 843
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3cbbd4cc1a4481a8.json",
+  "source" : "a2da8fdffda57e5e.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "fbb22051554ece7e",
+  "uid" : "3438eb24702b82db",
   "name" : "testInvalidEmail",
   "fullName" : "tests.LoginApiTest.testInvalidEmail",
   "historyId" : "23ecb3638de936f75fd65d20a9b4427d",
   "time" : {
-    "start" : 1736020502747,
-    "stop" : 1736020503204,
-    "duration" : 457
+    "start" : 1736106892234,
+    "stop" : 1736106892645,
+    "duration" : 411
   },
   "description" : "Test for login with incorrect email",
   "descriptionHtml" : "<p>Test for login with incorrect email</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1736020498991,
-      "stop" : 1736020499210,
-      "duration" : 219
+      "start" : 1736106888472,
+      "stop" : 1736106888687,
+      "duration" : 215
     },
     "description" : "",
     "status" : "passed",
@@ -51,10 +51,10 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "host",
-    "value" : "71564c212d3f"
+    "value" : "8d14ddc9503f"
   }, {
     "name" : "thread",
-    "value" : "74@71564c212d3f.main(1)"
+    "value" : "75@8d14ddc9503f.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,7 +81,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "c21a2e12688d313f",
+      "uid" : "8601c9093ba013f8",
       "status" : "passed",
       "time" : {
         "start" : 1735330221056,
@@ -92,6 +92,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fbb22051554ece7e.json",
+  "source" : "3438eb24702b82db.json",
   "parameterValues" : [ ]
 }
