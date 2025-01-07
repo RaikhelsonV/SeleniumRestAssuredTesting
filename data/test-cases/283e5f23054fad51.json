@@ -1,24 +1,22 @@
 {
-  "uid" : "f5bf180a7be41535",
+  "uid" : "283e5f23054fad51",
   "name" : "testLogin",
   "fullName" : "tests.LoginPageTest.testLogin",
   "historyId" : "1982eec408a4d54d19ea1d10240ea862",
   "time" : {
-    "start" : 1736193286450,
-    "stop" : 1736193287840,
-    "duration" : 1390
+    "start" : 1735330225886,
+    "stop" : 1735330227381,
+    "duration" : 1495
   },
-  "description" : "Test for valid login with correct credentials",
-  "descriptionHtml" : "<p>Test for valid login with correct credentials</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1736193284529,
-      "stop" : 1736193286402,
-      "duration" : 1873
+      "start" : 1735330222752,
+      "stop" : 1735330225871,
+      "duration" : 3119
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +30,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1736193286403,
-      "stop" : 1736193286420,
-      "duration" : 17
+      "start" : 1735330225871,
+      "stop" : 1735330225885,
+      "duration" : 14
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +47,9 @@
   "afterStages" : [ {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1736193287877,
-      "stop" : 1736193288019,
-      "duration" : 142
+      "start" : 1735330227383,
+      "stop" : 1735330227539,
+      "duration" : 156
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +81,10 @@
     "value" : "tests.LoginPageTest"
   }, {
     "name" : "host",
-    "value" : "ae8049083ff9"
+    "value" : "DESKTOP-639DAJJ"
   }, {
     "name" : "thread",
-    "value" : "74@ae8049083ff9.main(1)"
+    "value" : "9896@DESKTOP-639DAJJ.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -94,36 +92,17 @@
     "name" : "language",
     "value" : "java"
   }, {
-    "name" : "story",
-    "value" : "Valid Login"
-  }, {
-    "name" : "epic",
-    "value" : "Login Tests"
-  }, {
-    "name" : "feature",
-    "value" : "Login Functionality"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "f531070b281a5d1a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1735330225886,
-        "stop" : 1735330227381,
-        "duration" : 1495
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f5bf180a7be41535.json",
+  "source" : "283e5f23054fad51.json",
   "parameterValues" : [ ]
 }

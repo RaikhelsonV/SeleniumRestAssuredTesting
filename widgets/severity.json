@@ -1,70 +1,70 @@
 [ {
-  "uid" : "7fb4f72888ae25f9",
-  "name" : "testEmptyEmail",
-  "time" : {
-    "start" : 1736193288248,
-    "stop" : 1736193289354,
-    "duration" : 1106
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78326a8e44f015bf",
-  "name" : "testInvalidEmail",
-  "time" : {
-    "start" : 1736193291808,
-    "stop" : 1736193292228,
-    "duration" : 420
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "636042ddb52c9a19",
-  "name" : "testAddProduct",
-  "time" : {
-    "start" : 1736193290462,
-    "stop" : 1736193291339,
-    "duration" : 877
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "86f96fce844683df",
+  "uid" : "2eec0107f4dca867",
   "name" : "testInvalidPassword",
   "time" : {
-    "start" : 1736193292231,
-    "stop" : 1736193292933,
-    "duration" : 702
+    "start" : 1736279715107,
+    "stop" : 1736279715882,
+    "duration" : 775
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "94fc063fc8286e52",
+  "uid" : "23ca3d435b1e918b",
   "name" : "testGetProducts",
   "time" : {
-    "start" : 1736193291342,
-    "stop" : 1736193291806,
-    "duration" : 464
+    "start" : 1736279714205,
+    "stop" : 1736279714647,
+    "duration" : 442
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fe1ef64789fea76a",
+  "uid" : "fa0c5c4e81908308",
   "name" : "testSuccessfulLogin",
   "time" : {
-    "start" : 1736193289358,
-    "stop" : 1736193290457,
-    "duration" : 1099
+    "start" : 1736279712202,
+    "stop" : 1736279713326,
+    "duration" : 1124
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5bf180a7be41535",
+  "uid" : "d44059383ed0924",
+  "name" : "testInvalidEmail",
+  "time" : {
+    "start" : 1736279714650,
+    "stop" : 1736279715104,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d503632e8ab7bba",
+  "name" : "testEmptyEmail",
+  "time" : {
+    "start" : 1736279710911,
+    "stop" : 1736279712198,
+    "duration" : 1287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3076d0bad71a75e0",
+  "name" : "testAddProduct",
+  "time" : {
+    "start" : 1736279713331,
+    "stop" : 1736279714203,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6235995513abee33",
   "name" : "testLogin",
   "time" : {
-    "start" : 1736193286450,
-    "stop" : 1736193287840,
-    "duration" : 1390
+    "start" : 1736279709248,
+    "stop" : 1736279710511,
+    "duration" : 1263
   },
   "status" : "passed",
   "severity" : "normal"
