@@ -1,12 +1,12 @@
 {
-  "uid" : "57edb8c518074a6e",
-  "name" : "testInvalidEmail",
-  "fullName" : "tests.LoginApiTest.testInvalidEmail",
-  "historyId" : "23ecb3638de936f75fd65d20a9b4427d",
+  "uid" : "2f9a7e9673801162",
+  "name" : "testInvalidPassword",
+  "fullName" : "tests.LoginApiTest.testInvalidPassword",
+  "historyId" : "d3bbc6fa5d34721ab1b6e1e83f78bdef",
   "time" : {
-    "start" : 1735330221056,
-    "stop" : 1735330221726,
-    "duration" : 670
+    "start" : 1735330221728,
+    "stop" : 1735330222749,
+    "duration" : 1021
   },
   "status" : "passed",
   "flaky" : false,
@@ -37,7 +37,7 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "testInvalidEmail"
+    "value" : "testInvalidPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "57edb8c518074a6e.json",
+  "source" : "2f9a7e9673801162.json",
   "parameterValues" : [ ]
 }

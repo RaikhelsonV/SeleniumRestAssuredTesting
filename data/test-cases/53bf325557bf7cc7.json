@@ -1,12 +1,12 @@
 {
-  "uid" : "e58918b006dc90ee",
-  "name" : "testAddProduct",
-  "fullName" : "tests.LoginApiTest.testAddProduct",
-  "historyId" : "96e17ab13424d90556921495b65cb64e",
+  "uid" : "53bf325557bf7cc7",
+  "name" : "testSuccessfulLogin",
+  "fullName" : "tests.LoginApiTest.testSuccessfulLogin",
+  "historyId" : "7886dd9af445f56be7fff7f1edca04d8",
   "time" : {
-    "start" : 1735330218940,
-    "stop" : 1735330220207,
-    "duration" : 1267
+    "start" : 1735330217624,
+    "stop" : 1735330218936,
+    "duration" : 1312
   },
   "status" : "passed",
   "flaky" : false,
@@ -37,7 +37,7 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "testAddProduct"
+    "value" : "testSuccessfulLogin"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e58918b006dc90ee.json",
+  "source" : "53bf325557bf7cc7.json",
   "parameterValues" : [ ]
 }

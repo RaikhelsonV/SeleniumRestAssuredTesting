@@ -9,13 +9,13 @@
         "name" : "Valid Login",
         "children" : [ {
           "name" : "testLogin",
-          "uid" : "84c212a03c702d6b",
+          "uid" : "dbf5eabe384bf10d",
           "parentUid" : "7b3c47b33af6fa282af82094243770d4",
           "status" : "passed",
           "time" : {
-            "start" : 1736366082578,
-            "stop" : 1736366083988,
-            "duration" : 1410
+            "start" : 1736452488935,
+            "stop" : 1736452490207,
+            "duration" : 1272
           },
           "flaky" : false,
           "newFailed" : false,
@@ -34,13 +34,13 @@
         "name" : "Empty Email",
         "children" : [ {
           "name" : "testEmptyEmail",
-          "uid" : "73fbc290497dc43a",
+          "uid" : "f8e029c32e9cfc72",
           "parentUid" : "f8a4539ca67e7e7a1fa4a53d68147935",
           "status" : "passed",
           "time" : {
-            "start" : 1736366084396,
-            "stop" : 1736366085567,
-            "duration" : 1171
+            "start" : 1736452490639,
+            "stop" : 1736452491766,
+            "duration" : 1127
           },
           "flaky" : false,
           "newFailed" : false,
@@ -51,13 +51,13 @@
         "name" : "Successful Login",
         "children" : [ {
           "name" : "testSuccessfulLogin",
-          "uid" : "fa300565916be545",
+          "uid" : "624d6cee1bc92201",
           "parentUid" : "e58d801a041fc679c25027b73ccb3c2e",
           "status" : "passed",
           "time" : {
-            "start" : 1736366085570,
-            "stop" : 1736366086678,
-            "duration" : 1108
+            "start" : 1736452491770,
+            "stop" : 1736452492713,
+            "duration" : 943
           },
           "flaky" : false,
           "newFailed" : false,
@@ -68,26 +68,26 @@
         "name" : "Get Products",
         "children" : [ {
           "name" : "testAddProduct",
-          "uid" : "dfeda7afb95935a0",
+          "uid" : "16ad69021a7b9561",
           "parentUid" : "f07fbe0a1ad0fbc812174b85cd74739f",
           "status" : "passed",
           "time" : {
-            "start" : 1736366086683,
-            "stop" : 1736366087582,
-            "duration" : 899
+            "start" : 1736452492717,
+            "stop" : 1736452493080,
+            "duration" : 363
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "testGetProducts",
-          "uid" : "ab96ea76b690a4e6",
+          "uid" : "6119f4d1f7813632",
           "parentUid" : "f07fbe0a1ad0fbc812174b85cd74739f",
           "status" : "passed",
           "time" : {
-            "start" : 1736366087585,
-            "stop" : 1736366088020,
-            "duration" : 435
+            "start" : 1736452493083,
+            "stop" : 1736452493331,
+            "duration" : 248
           },
           "flaky" : false,
           "newFailed" : false,
@@ -98,13 +98,13 @@
         "name" : "Invalid Email",
         "children" : [ {
           "name" : "testInvalidEmail",
-          "uid" : "3e05b113b61bba59",
+          "uid" : "d996239ad85f26ff",
           "parentUid" : "6603faa8582e85970e5b3e589fc9e055",
           "status" : "passed",
           "time" : {
-            "start" : 1736366088023,
-            "stop" : 1736366088448,
-            "duration" : 425
+            "start" : 1736452493333,
+            "stop" : 1736452493574,
+            "duration" : 241
           },
           "flaky" : false,
           "newFailed" : false,
@@ -115,13 +115,13 @@
         "name" : "Invalid Password",
         "children" : [ {
           "name" : "testInvalidPassword",
-          "uid" : "2c05637d60468fbf",
+          "uid" : "58cf947e841bce6e",
           "parentUid" : "e3b08ea1ca060ed8969508103d19ccd8",
           "status" : "passed",
           "time" : {
-            "start" : 1736366088451,
-            "stop" : 1736366089162,
-            "duration" : 711
+            "start" : 1736452493576,
+            "stop" : 1736452494086,
+            "duration" : 510
           },
           "flaky" : false,
           "newFailed" : false,
