@@ -1,70 +1,70 @@
 [ {
-  "uid" : "624d6cee1bc92201",
-  "name" : "testSuccessfulLogin",
-  "time" : {
-    "start" : 1736452491770,
-    "stop" : 1736452492713,
-    "duration" : 943
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58cf947e841bce6e",
-  "name" : "testInvalidPassword",
-  "time" : {
-    "start" : 1736452493576,
-    "stop" : 1736452494086,
-    "duration" : 510
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8e029c32e9cfc72",
-  "name" : "testEmptyEmail",
-  "time" : {
-    "start" : 1736452490639,
-    "stop" : 1736452491766,
-    "duration" : 1127
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dbf5eabe384bf10d",
-  "name" : "testLogin",
-  "time" : {
-    "start" : 1736452488935,
-    "stop" : 1736452490207,
-    "duration" : 1272
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d996239ad85f26ff",
-  "name" : "testInvalidEmail",
-  "time" : {
-    "start" : 1736452493333,
-    "stop" : 1736452493574,
-    "duration" : 241
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "16ad69021a7b9561",
+  "uid" : "ee94b7372f22bf1a",
   "name" : "testAddProduct",
   "time" : {
-    "start" : 1736452492717,
-    "stop" : 1736452493080,
-    "duration" : 363
+    "start" : 1736538869592,
+    "stop" : 1736538869923,
+    "duration" : 331
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6119f4d1f7813632",
+  "uid" : "fb171b2135604f7e",
+  "name" : "testInvalidPassword",
+  "time" : {
+    "start" : 1736538870298,
+    "stop" : 1736538870768,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "182c7f5fc6a775b0",
+  "name" : "testSuccessfulLogin",
+  "time" : {
+    "start" : 1736538868722,
+    "stop" : 1736538869588,
+    "duration" : 866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b0779fc2f1c7a37",
   "name" : "testGetProducts",
   "time" : {
-    "start" : 1736452493083,
-    "stop" : 1736452493331,
-    "duration" : 248
+    "start" : 1736538869926,
+    "stop" : 1736538870110,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a546e5899da3effd",
+  "name" : "testEmptyEmail",
+  "time" : {
+    "start" : 1736538867790,
+    "stop" : 1736538868719,
+    "duration" : 929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42f9f88553e665c9",
+  "name" : "testLogin",
+  "time" : {
+    "start" : 1736538866239,
+    "stop" : 1736538867369,
+    "duration" : 1130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c38f479c99b47ab",
+  "name" : "testInvalidEmail",
+  "time" : {
+    "start" : 1736538870113,
+    "stop" : 1736538870295,
+    "duration" : 182
   },
   "status" : "passed",
   "severity" : "normal"

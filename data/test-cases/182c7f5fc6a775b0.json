@@ -1,12 +1,12 @@
 {
-  "uid" : "624d6cee1bc92201",
+  "uid" : "182c7f5fc6a775b0",
   "name" : "testSuccessfulLogin",
   "fullName" : "tests.LoginApiTest.testSuccessfulLogin",
   "historyId" : "7886dd9af445f56be7fff7f1edca04d8",
   "time" : {
-    "start" : 1736452491770,
-    "stop" : 1736452492713,
-    "duration" : 943
+    "start" : 1736538868722,
+    "stop" : 1736538869588,
+    "duration" : 866
   },
   "description" : "Test for successful login with correct credentials",
   "descriptionHtml" : "<p>Test for successful login with correct credentials</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1736452490396,
-      "stop" : 1736452490636,
-      "duration" : 240
+      "start" : 1736538867554,
+      "stop" : 1736538867787,
+      "duration" : 233
     },
     "description" : "",
     "status" : "passed",
@@ -51,10 +51,10 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "host",
-    "value" : "a60470dda608"
+    "value" : "1796ec559596"
   }, {
     "name" : "thread",
-    "value" : "74@a60470dda608.main(1)"
+    "value" : "75@1796ec559596.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,7 +81,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "53bf325557bf7cc7",
+      "uid" : "5fe01a878b505677",
       "status" : "passed",
       "time" : {
         "start" : 1735330217624,
@@ -92,6 +92,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "624d6cee1bc92201.json",
+  "source" : "182c7f5fc6a775b0.json",
   "parameterValues" : [ ]
 }

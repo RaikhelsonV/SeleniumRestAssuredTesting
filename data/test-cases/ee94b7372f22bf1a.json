@@ -1,12 +1,12 @@
 {
-  "uid" : "16ad69021a7b9561",
+  "uid" : "ee94b7372f22bf1a",
   "name" : "testAddProduct",
   "fullName" : "tests.LoginApiTest.testAddProduct",
   "historyId" : "96e17ab13424d90556921495b65cb64e",
   "time" : {
-    "start" : 1736452492717,
-    "stop" : 1736452493080,
-    "duration" : 363
+    "start" : 1736538869592,
+    "stop" : 1736538869923,
+    "duration" : 331
   },
   "description" : "Test for fetching products with valid token",
   "descriptionHtml" : "<p>Test for fetching products with valid token</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1736452490396,
-      "stop" : 1736452490636,
-      "duration" : 240
+      "start" : 1736538867554,
+      "stop" : 1736538867787,
+      "duration" : 233
     },
     "description" : "",
     "status" : "passed",
@@ -51,10 +51,10 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "host",
-    "value" : "a60470dda608"
+    "value" : "1796ec559596"
   }, {
     "name" : "thread",
-    "value" : "74@a60470dda608.main(1)"
+    "value" : "75@1796ec559596.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,7 +81,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "a028f028cc56cdd9",
+      "uid" : "82b2de17b7c21b1a",
       "status" : "passed",
       "time" : {
         "start" : 1735330218940,
@@ -92,6 +92,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "16ad69021a7b9561.json",
+  "source" : "ee94b7372f22bf1a.json",
   "parameterValues" : [ ]
 }
