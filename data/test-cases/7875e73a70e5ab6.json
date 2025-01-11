@@ -1,12 +1,12 @@
 {
-  "uid" : "42f9f88553e665c9",
+  "uid" : "7875e73a70e5ab6",
   "name" : "testLogin",
   "fullName" : "tests.LoginPageTest.testLogin",
   "historyId" : "1982eec408a4d54d19ea1d10240ea862",
   "time" : {
-    "start" : 1736538866239,
-    "stop" : 1736538867369,
-    "duration" : 1130
+    "start" : 1736625285379,
+    "stop" : 1736625286440,
+    "duration" : 1061
   },
   "description" : "Test for valid login with correct credentials",
   "descriptionHtml" : "<p>Test for valid login with correct credentials</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1736538864072,
-      "stop" : 1736538866183,
-      "duration" : 2111
+      "start" : 1736625283958,
+      "stop" : 1736625285323,
+      "duration" : 1365
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1736538866185,
-      "stop" : 1736538866201,
-      "duration" : 16
+      "start" : 1736625285324,
+      "stop" : 1736625285341,
+      "duration" : 17
     },
     "description" : "",
     "status" : "passed",
@@ -49,9 +49,9 @@
   "afterStages" : [ {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1736538867411,
-      "stop" : 1736538867553,
-      "duration" : 142
+      "start" : 1736625286484,
+      "stop" : 1736625286627,
+      "duration" : 143
     },
     "description" : "",
     "status" : "passed",
@@ -83,10 +83,10 @@
     "value" : "tests.LoginPageTest"
   }, {
     "name" : "host",
-    "value" : "1796ec559596"
+    "value" : "f28817cec4bc"
   }, {
     "name" : "thread",
-    "value" : "75@1796ec559596.main(1)"
+    "value" : "75@f28817cec4bc.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -113,7 +113,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "54c45662012a98aa",
+      "uid" : "ea2723ff2cc1818",
       "status" : "passed",
       "time" : {
         "start" : 1735330225886,
@@ -124,6 +124,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "42f9f88553e665c9.json",
+  "source" : "7875e73a70e5ab6.json",
   "parameterValues" : [ ]
 }
