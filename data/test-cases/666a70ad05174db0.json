@@ -1,22 +1,24 @@
 {
-  "uid" : "9f94b6bfccd9b238",
+  "uid" : "666a70ad05174db0",
   "name" : "testGetProducts",
   "fullName" : "tests.LoginApiTest.testGetProducts",
   "historyId" : "3461a8422251fa940f4556b1ce13e5b5",
   "time" : {
-    "start" : 1735330220209,
-    "stop" : 1735330221052,
-    "duration" : 843
+    "start" : 1736711675884,
+    "stop" : 1736711676108,
+    "duration" : 224
   },
+  "description" : "Test for fetching products with valid token",
+  "descriptionHtml" : "<p>Test for fetching products with valid token</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1735330215773,
-      "stop" : 1735330216028,
-      "duration" : 255
+      "start" : 1736711673519,
+      "stop" : 1736711673730,
+      "duration" : 211
     },
     "description" : "",
     "status" : "passed",
@@ -49,10 +51,10 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "host",
-    "value" : "DESKTOP-639DAJJ"
+    "value" : "948e76d14c6a"
   }, {
     "name" : "thread",
-    "value" : "9896@DESKTOP-639DAJJ.main(1)"
+    "value" : "75@948e76d14c6a.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -60,17 +62,36 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "story",
+    "value" : "Get Products"
+  }, {
+    "name" : "epic",
+    "value" : "API Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Login and Product Endpoints"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "865f47cb2488f752",
+      "status" : "passed",
+      "time" : {
+        "start" : 1735330220209,
+        "stop" : 1735330221052,
+        "duration" : 843
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f94b6bfccd9b238.json",
+  "source" : "666a70ad05174db0.json",
   "parameterValues" : [ ]
 }

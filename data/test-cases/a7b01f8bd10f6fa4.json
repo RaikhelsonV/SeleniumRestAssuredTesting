@@ -1,12 +1,12 @@
 {
-  "uid" : "7875e73a70e5ab6",
+  "uid" : "a7b01f8bd10f6fa4",
   "name" : "testLogin",
   "fullName" : "tests.LoginPageTest.testLogin",
   "historyId" : "1982eec408a4d54d19ea1d10240ea862",
   "time" : {
-    "start" : 1736625285379,
-    "stop" : 1736625286440,
-    "duration" : 1061
+    "start" : 1736711672230,
+    "stop" : 1736711673336,
+    "duration" : 1106
   },
   "description" : "Test for valid login with correct credentials",
   "descriptionHtml" : "<p>Test for valid login with correct credentials</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1736625283958,
-      "stop" : 1736625285323,
-      "duration" : 1365
+      "start" : 1736711670105,
+      "stop" : 1736711672184,
+      "duration" : 2079
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1736625285324,
-      "stop" : 1736625285341,
-      "duration" : 17
+      "start" : 1736711672185,
+      "stop" : 1736711672200,
+      "duration" : 15
     },
     "description" : "",
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1736625286484,
-      "stop" : 1736625286627,
+      "start" : 1736711673375,
+      "stop" : 1736711673518,
       "duration" : 143
     },
     "description" : "",
@@ -83,10 +83,10 @@
     "value" : "tests.LoginPageTest"
   }, {
     "name" : "host",
-    "value" : "f28817cec4bc"
+    "value" : "948e76d14c6a"
   }, {
     "name" : "thread",
-    "value" : "75@f28817cec4bc.main(1)"
+    "value" : "75@948e76d14c6a.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -113,7 +113,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "ea2723ff2cc1818",
+      "uid" : "27347975c0a565ba",
       "status" : "passed",
       "time" : {
         "start" : 1735330225886,
@@ -124,6 +124,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7875e73a70e5ab6.json",
+  "source" : "a7b01f8bd10f6fa4.json",
   "parameterValues" : [ ]
 }
