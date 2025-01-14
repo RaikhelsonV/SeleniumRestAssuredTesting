@@ -1,12 +1,12 @@
 {
-  "uid" : "77064ea2d4c97fd3",
-  "name" : "testAddProduct",
-  "fullName" : "tests.LoginApiTest.testAddProduct",
-  "historyId" : "96e17ab13424d90556921495b65cb64e",
+  "uid" : "e6132160bf1c0f72",
+  "name" : "testGetProducts",
+  "fullName" : "tests.LoginApiTest.testGetProducts",
+  "historyId" : "3461a8422251fa940f4556b1ce13e5b5",
   "time" : {
-    "start" : 1736798098143,
-    "stop" : 1736798098483,
-    "duration" : 340
+    "start" : 1736884474140,
+    "stop" : 1736884474323,
+    "duration" : 183
   },
   "description" : "Test for fetching products with valid token",
   "descriptionHtml" : "<p>Test for fetching products with valid token</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1736798095776,
-      "stop" : 1736798095995,
-      "duration" : 219
+      "start" : 1736884471866,
+      "stop" : 1736884472090,
+      "duration" : 224
     },
     "description" : "",
     "status" : "passed",
@@ -39,7 +39,7 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "testAddProduct"
+    "value" : "testGetProducts"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -51,10 +51,10 @@
     "value" : "tests.LoginApiTest"
   }, {
     "name" : "host",
-    "value" : "1e3b540e6c60"
+    "value" : "89d4cfc1f9b4"
   }, {
     "name" : "thread",
-    "value" : "74@1e3b540e6c60.main(1)"
+    "value" : "74@89d4cfc1f9b4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -81,17 +81,17 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "f9a4cbb4b87ec294",
+      "uid" : "f193e0fc2c7b1916",
       "status" : "passed",
       "time" : {
-        "start" : 1735330218940,
-        "stop" : 1735330220207,
-        "duration" : 1267
+        "start" : 1735330220209,
+        "stop" : 1735330221052,
+        "duration" : 843
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "77064ea2d4c97fd3.json",
+  "source" : "e6132160bf1c0f72.json",
   "parameterValues" : [ ]
 }

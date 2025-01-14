@@ -1,12 +1,12 @@
 {
-  "uid" : "b79fa12802ffb6ef",
+  "uid" : "77e4ba9b7aa9d01",
   "name" : "testLogin",
   "fullName" : "tests.LoginPageTest.testLogin",
   "historyId" : "1982eec408a4d54d19ea1d10240ea862",
   "time" : {
-    "start" : 1736798094432,
-    "stop" : 1736798095591,
-    "duration" : 1159
+    "start" : 1736884470667,
+    "stop" : 1736884471677,
+    "duration" : 1010
   },
   "description" : "Test for valid login with correct credentials",
   "descriptionHtml" : "<p>Test for valid login with correct credentials</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1736798092945,
-      "stop" : 1736798094372,
-      "duration" : 1427
+      "start" : 1736884469345,
+      "stop" : 1736884470618,
+      "duration" : 1273
     },
     "description" : "",
     "status" : "passed",
@@ -32,9 +32,9 @@
   }, {
     "name" : "init",
     "time" : {
-      "start" : 1736798094373,
-      "stop" : 1736798094389,
-      "duration" : 16
+      "start" : 1736884470619,
+      "stop" : 1736884470637,
+      "duration" : 18
     },
     "description" : "",
     "status" : "passed",
@@ -49,8 +49,8 @@
   "afterStages" : [ {
     "name" : "quitDriver",
     "time" : {
-      "start" : 1736798095632,
-      "stop" : 1736798095774,
+      "start" : 1736884471723,
+      "stop" : 1736884471865,
       "duration" : 142
     },
     "description" : "",
@@ -83,10 +83,10 @@
     "value" : "tests.LoginPageTest"
   }, {
     "name" : "host",
-    "value" : "1e3b540e6c60"
+    "value" : "89d4cfc1f9b4"
   }, {
     "name" : "thread",
-    "value" : "74@1e3b540e6c60.main(1)"
+    "value" : "74@89d4cfc1f9b4.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -113,7 +113,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "2480b0364664e4a2",
+      "uid" : "e469a678a1d08040",
       "status" : "passed",
       "time" : {
         "start" : 1735330225886,
@@ -124,6 +124,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b79fa12802ffb6ef.json",
+  "source" : "77e4ba9b7aa9d01.json",
   "parameterValues" : [ ]
 }
