@@ -1,5 +1,5 @@
 {
-  "uid" : "f193e0fc2c7b1916",
+  "uid" : "f61860b13d46c377",
   "name" : "testGetProducts",
   "fullName" : "tests.LoginApiTest.testGetProducts",
   "historyId" : "3461a8422251fa940f4556b1ce13e5b5",
@@ -71,6 +71,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f193e0fc2c7b1916.json",
+  "source" : "f61860b13d46c377.json",
   "parameterValues" : [ ]
 }
